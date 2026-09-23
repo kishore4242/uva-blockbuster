@@ -1,3 +1,5 @@
+package movie;
+
 public class MovieCopy {
 
     private Movie movie;
