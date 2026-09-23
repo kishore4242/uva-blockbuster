@@ -23,9 +23,7 @@
         <version>3.4.1</version>
         <configuration>
           <archive>
-            <manifest>
-              <mainClass>Main</mainClass>
-            </manifest>
+            <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
           </archive>
         </configuration>
       </plugin>
